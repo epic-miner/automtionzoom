@@ -19,7 +19,8 @@ RUN /venv/bin/pip install --upgrade pip
 # Install pip dependencies within the virtual environment
 RUN /venv/bin/pip install getindianname==1.0.7 \
     selenium==4.15.2 \
-    playwright==1.40.0
+    playwright==1.40.0 \
+    nest_asyncio
 
 # Install Playwright browsers
 RUN /venv/bin/playwright install
