@@ -1,4 +1,6 @@
-1. copy
+```sh
+git clone https://github.com/epic-miner/automtionzoom.git
+```
 ```sh
  cd automtionzoom
 ```
